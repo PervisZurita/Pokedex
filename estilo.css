@@ -1,0 +1,102 @@
+#contenedor div{
+    padding: 12px;
+    width: 352px;
+    margin-top: 10px;
+}
+#boton {
+    background-color: #ff5733;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 50px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.card-body button{
+    width: 328px;
+}
+body {
+    background-color: #f0f8ff;
+}
+
+.container {
+    margin-top: 50px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    background-image: url('https://external-preview.redd.it/qKWB6DgInN0yKQaVggiRG1Vfr8_Zc1VlaNN6E1PRHVU.jpg?width=640&crop=smart&auto=webp&s=53efd0d2608dbb32a28fac675c6471bda7c91a0c');
+}
+
+h1 {
+    color: #3498db;
+    font-weight: bold;
+}
+
+#contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#contenedor div {
+    padding: 12px;
+    width: 352px;
+    margin-top: 10px;
+}
+
+#contenedor .card {
+    background-color: #3498db;
+    color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#contenedor .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-body button {
+    width: 100%;
+    background-color: #3d0412;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+.paginacion-btn {
+    padding: 10px 25px;
+    border: 2px solid #3498db;
+    color: #3498db;
+    background-color: transparent;
+    border-radius: 30px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.paginacion-btn:hover {
+    background-color: #3498db;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-outline-success:hover {
+    background-color: #d0db6e;
+    color: white;
+}
+
+#boton {
+    margin-top: 15px;
+}
+label{
+    color: #ce0d0d;
+}
